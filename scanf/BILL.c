@@ -12,6 +12,7 @@ printf("Rate of item:");
 scanf("%d",& rate);
 printf("Quantity is:");
 scanf("%d",& qty);
+
 amt = rate * qty ;
 dis = amt * 0.05;
 billamt = amt - dis ;
